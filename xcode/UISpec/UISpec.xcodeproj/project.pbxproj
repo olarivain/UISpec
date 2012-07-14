@@ -15,7 +15,6 @@
 		2FDBB76110EECD0200193065 /* UIQueryTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FDBB75910EECD0200193065 /* UIQueryTabBar.m */; };
 		2FDBB76210EECD0200193065 /* UIQueryWebView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FDBB75A10EECD0200193065 /* UIQueryWebView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2FDBB76310EECD0200193065 /* UIQueryWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FDBB75B10EECD0200193065 /* UIQueryWebView.m */; };
-		40C7CC2A12E9E854003FF22C /* DescribeUIExpectation.h in Headers */ = {isa = PBXBuildFile; fileRef = C7D4F2EC10BDA57C00B00019 /* DescribeUIExpectation.h */; };
 		40C7CC2D12E9E8BB003FF22C /* libUISpec.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C76EB5D20F74586B00EF8398 /* libUISpec.a */; };
 		B3C25CDF1381E93500BB634B /* UIQueryScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = B3C25CDD1381E93500BB634B /* UIQueryScrollView.m */; };
 		B3C25CE01381E93500BB634B /* UIQueryScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = B3C25CDE1381E93500BB634B /* UIQueryScrollView.h */; };
@@ -56,9 +55,7 @@
 		C77AB499103F298700FDCEEB /* UIBug.m in Sources */ = {isa = PBXBuildFile; fileRef = C77AB491103F298700FDCEEB /* UIBug.m */; };
 		C7D32A93103F40DF00071AE1 /* UIConsole.h in Headers */ = {isa = PBXBuildFile; fileRef = C7D32A91103F40DF00071AE1 /* UIConsole.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C7D32A94103F40DF00071AE1 /* UIConsole.m in Sources */ = {isa = PBXBuildFile; fileRef = C7D32A92103F40DF00071AE1 /* UIConsole.m */; };
-		C7D4F2B410BDA48300B00019 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C7D4F2B310BDA48300B00019 /* main.m */; };
 		C7D4F2EB10BDA54500B00019 /* UISpec.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C77AB465103F263400FDCEEB /* UISpec.bundle */; };
-		C7D4F2EE10BDA57C00B00019 /* DescribeUIExpectation.m in Sources */ = {isa = PBXBuildFile; fileRef = C7D4F2ED10BDA57C00B00019 /* DescribeUIExpectation.m */; };
 		C7E953560F81799A005FC682 /* UIProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = C7E953540F81799A005FC682 /* UIProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C7E953570F81799A005FC682 /* UIProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E953550F81799A005FC682 /* UIProxy.m */; };
 		C7E9535C0F818688005FC682 /* ReturnCacher.h in Headers */ = {isa = PBXBuildFile; fileRef = C7E9535A0F818688005FC682 /* ReturnCacher.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -136,9 +133,6 @@
 		C7D32A92103F40DF00071AE1 /* UIConsole.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIConsole.m; sourceTree = "<group>"; };
 		C7D4F29310BDA39C00B00019 /* Specs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Specs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7D4F29510BDA39C00B00019 /* Specs-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Specs-Info.plist"; sourceTree = "<group>"; };
-		C7D4F2B310BDA48300B00019 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		C7D4F2EC10BDA57C00B00019 /* DescribeUIExpectation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DescribeUIExpectation.h; sourceTree = "<group>"; };
-		C7D4F2ED10BDA57C00B00019 /* DescribeUIExpectation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DescribeUIExpectation.m; sourceTree = "<group>"; };
 		C7E953540F81799A005FC682 /* UIProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIProxy.h; sourceTree = "<group>"; };
 		C7E953550F81799A005FC682 /* UIProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIProxy.m; sourceTree = "<group>"; };
 		C7E9535A0F818688005FC682 /* ReturnCacher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReturnCacher.h; sourceTree = "<group>"; };
@@ -176,7 +170,6 @@
 		08FB7794FE84155DC02AAC07 /* UISpec */ = {
 			isa = PBXGroup;
 			children = (
-				C7D4F2B110BDA46900B00019 /* specs */,
 				C76EB5E70F74592C00EF8398 /* src */,
 				1AB674ADFE9D54B511CA2CBB /* Products */,
 				C77AB465103F263400FDCEEB /* UISpec.bundle */,
@@ -288,17 +281,6 @@
 			path = ../../src/utils;
 			sourceTree = SOURCE_ROOT;
 		};
-		C7D4F2B110BDA46900B00019 /* specs */ = {
-			isa = PBXGroup;
-			children = (
-				C7D4F2B310BDA48300B00019 /* main.m */,
-				C7D4F2EC10BDA57C00B00019 /* DescribeUIExpectation.h */,
-				C7D4F2ED10BDA57C00B00019 /* DescribeUIExpectation.m */,
-			);
-			name = specs;
-			path = ../../specs;
-			sourceTree = SOURCE_ROOT;
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -306,7 +288,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				40C7CC2A12E9E854003FF22C /* DescribeUIExpectation.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -464,8 +445,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C7D4F2B410BDA48300B00019 /* main.m in Sources */,
-				C7D4F2EE10BDA57C00B00019 /* DescribeUIExpectation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
