@@ -82,7 +82,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00BDF51515B2261000ED1EF7 /* Rakefile */ = {isa = PBXFileReference; lastKnownFileType = text; name = Rakefile; path = ../../Rakefile; sourceTree = "<group>"; };
 		2FDBB75410EECD0200193065 /* UIQuerySearchBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIQuerySearchBar.h; sourceTree = "<group>"; };
 		2FDBB75510EECD0200193065 /* UIQuerySearchBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIQuerySearchBar.m; sourceTree = "<group>"; };
 		2FDBB75610EECD0200193065 /* UIQuerySegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIQuerySegmentedControl.h; sourceTree = "<group>"; };
@@ -176,7 +175,6 @@
 				C77AB465103F263400FDCEEB /* UISpec.bundle */,
 				C76EB6230F7459DC00EF8398 /* UISpec_Prefix.pch */,
 				C7D4F29510BDA39C00B00019 /* Specs-Info.plist */,
-				00BDF51515B2261000ED1EF7 /* Rakefile */,
 			);
 			name = UISpec;
 			sourceTree = "<group>";
